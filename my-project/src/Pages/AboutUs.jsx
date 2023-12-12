@@ -3,7 +3,7 @@
 function AboutUs() {
   return (
     <>
-      <div className='min-h-screen bg-aboutUs bg-no-repeat bg-fixed bg-cover'>
+      <div className='min-h-screen bg-aboutUs bg-no-repeat bg-fixed bg-cover flex align-middle'>
         <p className="font-body text-white">
           About Us
         </p>
@@ -16,16 +16,16 @@ function AboutUs() {
           Career Advantage is a full-service staffing agency that provides comprehensive
           staffing solutions in Los Angeles and the surrounding areas.  We began in 2001 as a
           two person search firm and have been on a journey of growth since.  After taking stock
-          of who we are and where we’ve been, one thing became clear; maintaining the status quo
-          was no way to run a business. We realized to keep growing, we’d have to be infinitely
+          of who we are and where we've been, one thing became clear; maintaining the status quo
+          was no way to run a business. We realized to keep growing, we'd have to be infinitely
           more invested. In our own people, clients, and candidates. In everything we do, every
-          single day. So we made a commitment to do exactly that. And we’ve remained true to it ever since.
+          single day. So we made a commitment to do exactly that. And we've remained true to it ever since.
         </p>
 
 
         <p className=" text-white py-3 pt-10 text-2xl">
-          No matter what position you’re looking to fill, you can be confident every candidate we
-          present will be more qualified, more skilled and more of what you are looking for. If you’re
+          No matter what position you're looking to fill, you can be confident every candidate we
+          present will be more qualified, more skilled and more of what you are looking for. If you're
           looking for work, you can be confident that our clients have highly desirable positions that
           you may not find using typical job search methods.  And that we have the relationships and
           connections to expose you to the industries and positions you want.
@@ -39,7 +39,7 @@ function AboutUs() {
           CORE VALUES
         </p>
         <p className=" text-white pb-3 text-2xl">
-          What drives us?  Your success, for one thing. (If you don’t succeed, we don’t either.) But also, our
+          What drives us?  Your success, for one thing. (If you don't succeed, we don't either.) But also, our
           belief in respect, integrity, trust, accountability and passion in all our dealings, business or
           otherwise. Yes, adhering to these core beliefs keep us in check, and even help us sleep better at night.
         </p>
@@ -54,7 +54,7 @@ function AboutUs() {
           Our Commitment to our Staff
         </p>
         <p className=" text-white py-3 pt-10 text-2xl">
-          Career Advantage’s most valuable resource is our people. Our commitment to the professional growth and
+          Career Advantage's most valuable resource is our people. Our commitment to the professional growth and
           development of our employees is vital to the success of our organization.  We invest in resources and
           training to give everyone that works here the opportunity to thrive and the tools to succeed. We hold each
           other accountable to practice what we preach.   We have worked hard to establish a healthy work environment

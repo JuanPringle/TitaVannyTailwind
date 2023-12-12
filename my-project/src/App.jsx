@@ -1,10 +1,11 @@
-import Header from "./Header";
-import Home from "./Home";
+import Header from "./Components/Header";
+import Home from "./Pages/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import SubmitResume from "./SubmitResume";
-import Service from "./Services"
-import AboutUs from "./AboutUs";
-import Contact from "./Contact";
+import Service from "./Pages/Services"
+import AboutUs from "./Pages/AboutUs";
+import Contact from "./Pages/Contact";
+import JobSearch from "./Pages/JobSearch";
 
 export default function App() {
   return (
@@ -14,12 +15,14 @@ export default function App() {
         <div>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="submitResume" element={<SubmitResume/>}/>
+            <Route path="submit_resume" element={<SubmitResume/>}/>
             <Route path="services" element={<Service/>}/>
             <Route path="aboutUs" element={<AboutUs/>}/>
-            <Route path="Contact" element={<Contact/>}/>
+            <Route path="contact" element={<Contact/>}/>
+            <Route path="jobSearch" element={<JobSearch/>}/>
           </Routes>
         </div>
+
       </main>
     </Router>
   );
