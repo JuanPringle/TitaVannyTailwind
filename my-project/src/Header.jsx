@@ -22,6 +22,9 @@ function Header() {
           </a>
           <a href='https://www.linkedin.com/in/career-advantage-b89b49ba/'>
             <img
+              title="Linkedin"
+              data-te-placement="top" 
+              data-te-toggle="tooltip"
               className="m-auto inline-block h-10 rounded hover:animate-bounce"
               src={LinkedInIcon}
               alt="LinkedIn Icon"
@@ -29,6 +32,9 @@ function Header() {
           </a>
           <a href='https://www.facebook.com/CareerAdvantage/'>
             <img
+              title="Facebook"
+              data-te-placement="top" 
+              data-te-toggle="tooltip"
               className="m-auto inline-block h-10 rounded-full bg-white hover:animate-bounce duration-200"
               src={MetaIcon}
               alt="Meta Icon"
@@ -39,6 +45,7 @@ function Header() {
           <a href="/"className="text-zinc-50 hover:text-blue-500 duration-200">HOME</a>
           <a href="/services"className="text-zinc-50 hover:text-blue-500 duration-200">SERVICES</a>
           <a href="/aboutUs"className="text-zinc-50 hover:text-blue-500 duration-200">ABOUT US</a>
+          <a href="/contact"className="text-zinc-50 hover:text-blue-500 duration-200">CAREERS</a>
           <a href="/contact"className="text-zinc-50 hover:text-blue-500 duration-200">CONTACT</a>
         </div>
       </div>

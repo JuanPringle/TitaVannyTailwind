@@ -37,7 +37,7 @@ function Home() {
           we are looking for top industry talent to help shape and drive us forward.
           Career Advantage is a growing and progressive staffing firm located in the heart
           of downtown Los Angeles. We are an organization driven by relationships. For
-          this reason, finding the right type of people who fit with our team’s mission
+          this reason, finding the right type of people who fit with our team's mission
           is critical to our success. Our positive work environment and commitment to
           teamwork sets us apart from our competition
         </p>
