@@ -1,10 +1,10 @@
-import Header from "./Header";
-import Home from "./Home";
+import Header from "./Components/Header";
+import Home from "./Pages/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import SubmitResume from "./SubmitResume";
-import Service from "./Services"
-import AboutUs from "./AboutUs";
-import Contact from "./Contact";
+import Service from "./Pages/Services"
+import AboutUs from "./Pages/AboutUs";
+import Contact from "./Pages/Contact";
 
 export default function App() {
   return (

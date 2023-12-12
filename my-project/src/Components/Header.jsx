@@ -1,5 +1,5 @@
-import LinkedInIcon from './assets/linkedinIcon.png'
-import MetaIcon from './assets/metaIcon.png'
+import LinkedInIcon from '../assets/linkedinIcon.png'
+import MetaIcon from '../assets/metaIcon.png'
 
 function Header() {
   return (
