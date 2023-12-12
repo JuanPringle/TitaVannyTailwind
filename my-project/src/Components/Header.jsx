@@ -44,8 +44,8 @@ function Header() {
         <div className="space-x-8 mt-8 flex justify-around">
           <a href="/"className="text-zinc-50 hover:text-blue-500 duration-200">HOME</a>
           <a href="/services"className="text-zinc-50 hover:text-blue-500 duration-200">SERVICES</a>
+          <a href="/jobSearch"className="text-zinc-50 hover:text-blue-500 duration-200">JOB SEARCH</a>
           <a href="/aboutUs"className="text-zinc-50 hover:text-blue-500 duration-200">ABOUT US</a>
-          <a href="/contact"className="text-zinc-50 hover:text-blue-500 duration-200">CAREERS</a>
           <a href="/contact"className="text-zinc-50 hover:text-blue-500 duration-200">CONTACT</a>
         </div>
       </div>

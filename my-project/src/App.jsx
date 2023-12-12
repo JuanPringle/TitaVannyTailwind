@@ -5,6 +5,7 @@ import SubmitResume from "./SubmitResume";
 import Service from "./Pages/Services"
 import AboutUs from "./Pages/AboutUs";
 import Contact from "./Pages/Contact";
+import JobSearch from "./Pages/JobSearch";
 
 export default function App() {
   return (
@@ -14,12 +15,14 @@ export default function App() {
         <div>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="submitResume" element={<SubmitResume/>}/>
+            <Route path="submit_resume" element={<SubmitResume/>}/>
             <Route path="services" element={<Service/>}/>
             <Route path="aboutUs" element={<AboutUs/>}/>
-            <Route path="Contact" element={<Contact/>}/>
+            <Route path="contact" element={<Contact/>}/>
+            <Route path="jobSearch" element={<JobSearch/>}/>
           </Routes>
         </div>
+
       </main>
     </Router>
   );
