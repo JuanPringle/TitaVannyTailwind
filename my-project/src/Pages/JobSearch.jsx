@@ -13,7 +13,6 @@ function JobSearch(){
             <Job></Job>
             <Job></Job>
             <Job></Job>
-            
         </div>
         </>
     );
