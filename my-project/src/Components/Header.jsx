@@ -1,6 +1,7 @@
 import LinkedInIcon from '../assets/linkedinIcon.png'
 import MetaIcon from '../assets/metaIcon.png'
 
+
 function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 bg-gray-950 py-10 flex justify-between z-50 ">
@@ -17,7 +18,7 @@ function Header() {
           <a href='/submitResume' className="text-xl bg-blue-500 rounded p-4 hover:bg-blue-300 duration-200 font-body">
             Submit a Resume
           </a>
-          <a className="text-xl bg-blue-500 rounded p-4 hover:bg-blue-300 duration-200 font-body">
+          <a href='/contact' className="text-xl bg-blue-500 rounded p-4 hover:bg-blue-300 duration-200 font-body">
             Fill a Position
           </a>
           <a href='https://www.linkedin.com/in/career-advantage-b89b49ba/'>

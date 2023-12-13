@@ -4,8 +4,7 @@ const Job = ({props}) => {
         <div className="mx-2">
             <div className="bg-slate-700 bg-opacity-90 p-10 rounded-lg shadow-md break-words">
                 <h2 className="text-2xl font-bold mb-2 text-white">{props.title == null ? "Job Title" : props.title}</h2>
-                <p className="text-white font-semibold">Location: </p>
-                <p className="text-white p-3">{props.location == null ? "TBD" : props.location}</p>
+                <p className="text-white pb-3"><span className="text-white font-semibold">Location: </span>{props.location == null ? "TBD" : props.location}</p>
                 <div
                 class="rounded-t-lg border  ">
                 <h2 class="mb-0" id="headingOne">
@@ -35,7 +34,9 @@ const Job = ({props}) => {
                 </div>
                 </div>
             </div>
-                <button className="mt-5 bg-blue-700 text-white rounded p-2 font-bold">Apply Now </button>
+                <a href="/submitResume">
+                    <button className="mt-5 bg-blue-700 text-white rounded p-2 font-bold">Apply Now </button>
+                </a>
             </div>
         </div>
     </>
