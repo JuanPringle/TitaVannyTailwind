@@ -1,7 +1,10 @@
 const Contact = () => {
   return (
-    <div>
-      <p>Contact</p>
+    <div className="flex align-middle min-h-screen items-center">
+      <label className=" text-white">
+        Select Files
+        <input type="file"name="file" ></input>
+      </label>
     </div>
   )
 }

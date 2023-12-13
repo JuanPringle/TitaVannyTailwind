@@ -1,3 +1,4 @@
+import Arrow from "../assets/down-arrow.png"
 
 function Home() {
   return (
@@ -5,7 +6,7 @@ function Home() {
       <div className='min-h-screen bg-pasadena bg-no-repeat bg-fixed bg-cover flex items-center backdrop-invert' style={{ filter: 'hue-rotate(180deg)' }}>
         <div>
           <p className='text-white text-center text-5xl font-body block mb-2 ml-32 bg-black p-3 bg-opacity-80'>WELCOME</p>
-          <p className='text-white text-center block text-xl font-body ml-32 bg-black p-2 bg-opacity-80'>Scroll Down</p>
+          <p className='text-white text-center block text-xl font-body ml-32 bg-black p-4 bg-opacity-80'><img src={Arrow} className=" mr-2 invert animate-bounce h-6 inline-block"></img>Scroll Down <img src={Arrow} className=" ml-2 invert animate-bounce h-6 inline-block"></img></p>
         </div>
       </div>
       <div className="flex align-middle mt-10 m-10 ">

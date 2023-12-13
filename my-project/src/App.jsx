@@ -1,7 +1,7 @@
 import Header from "./Components/Header";
 import Home from "./Pages/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import SubmitResume from "./SubmitResume";
+import SubmitResume from "./Pages/SubmitResume";
 import Service from "./Pages/Services"
 import AboutUs from "./Pages/AboutUs";
 import Contact from "./Pages/Contact";
@@ -15,7 +15,7 @@ export default function App() {
         <div>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="submit_resume" element={<SubmitResume/>}/>
+            <Route path="submitResume" element={<SubmitResume/>}/>
             <Route path="services" element={<Service/>}/>
             <Route path="aboutUs" element={<AboutUs/>}/>
             <Route path="contact" element={<Contact/>}/>
