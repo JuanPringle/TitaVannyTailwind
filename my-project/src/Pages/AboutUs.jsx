@@ -3,10 +3,11 @@
 function AboutUs() {
   return (
     <>
-      <div className='min-h-screen bg-aboutUs bg-no-repeat bg-fixed bg-cover flex align-middle'>
-        <p className="font-body text-white">
-          About Us
-        </p>
+      <div className='min-h-screen bg-aboutUs bg-no-repeat bg-fixed bg-cover flex items-center'>
+        <div>
+          <p className='text-white text-center text-5xl font-body block mb-2 ml-32 bg-black p-3 bg-opacity-80'>ABout Us</p>
+          <p className='text-white text-center block text-xl font-body ml-32 bg-black p-2 bg-opacity-80'>Scroll Down</p>
+        </div>
       </div>
       <div className="mx-10">
         <p className="text-blue-500 text-4xl font-body pb-3 pt-6">
