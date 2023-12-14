@@ -20,43 +20,54 @@ const Contact = () => {
             </div>
                 
           </p>
-          <p className="text-blue-500 text-3xl font-body pb-3 pt-6">
+          <p className="text-blue-500 text-3xl font-body pt-6">
             PHONE
           </p>
           <p className="text-white text-xl font-body pb-3 ">
             (213) 380-4410
           </p>
-          <p className="text-blue-500 text-3xl font-body pb-3 pt-6">
+          <p className="text-blue-500 text-3xl font-body  pt-6">
             FAX
           </p>
           <p className="text-white text-xl font-body pb-3 ">
             (213) 380-4421
           </p>
-          <p className="text-blue-500 text-3xl font-body pb-3 pt-6">
+          <p className="text-blue-500 text-3xl font-body  pt-6">
             EMAIL
+          </p>
+          <p className="text-white text-xl font-body pb-3 ">
+            hr@caistaffing.com
+          </p>
+          <p className="text-blue-500 text-3xl font-body  pt-6">
+            PAYMENTS
           </p>
         </div>
         <div>
-        <div className="border-2 border-double rounded border-slate-100 py-12 px-5 bg-slate-800 opacity-90">
-      <label className="text-white block text-left">
-        Name
-      </label>
-      <input type="text" name="file"  className="pr-20 text-black hover:bg-slate-300 text-left rounded" />
-      <label className="pt-5 text-white block text-left">
-        Phone Number
-      </label>
-      <input type="text" name="file" className="pr-20 text-black hover:bg-slate-300 text-left rounded" />
-      <label className="pt-5 text-white block text-left">
-        Email
-      </label>
-      <input type="text" name="file" className="pr-20 text-black hover:bg-slate-300 text-left rounded" />
-      <label className="pt-5 text-white block text-left">
-        Message
-      </label>
-      <textarea type="text" name="file" className="pr-20 text-black hover:bg-slate-300 text-left rounded" id="" cols="22" rows="4"></textarea>
-      <button className="border-black mt-5 bg-slate-100 hover:bg-slate-400 text-slate-700 hover:text-black rounded p-1 px-2 font-bold">Submit </button>
-        
-    </div>
+          <div className="border-2 border-double rounded border-slate-100 py-6 px-5 bg-slate-800 opacity-90">
+            <p className="text-white text-4xl font-body pb-1">
+              SEND US A MESSAGE!
+            </p>
+            <p className="text-white text-lg font-bold pb-3">
+              All fields required unless noted
+            </p>
+            <label className="pb-1 text-white block text-left">
+              Name
+            </label>
+            <input type="text" name="file"  className="pr-20 text-black hover:bg-slate-300 text-left rounded" />
+            <label className="pt-5 pb-1 text-white block text-left">
+              Phone Number (optional)
+            </label>
+            <input type="text" name="file" className="pr-20 text-black hover:bg-slate-300 text-left rounded" />
+            <label className="pt-5 pb-1 text-white block text-left">
+              Email
+            </label>
+            <input type="text" name="file" className="pr-20 text-black hover:bg-slate-300 text-left rounded" />
+            <label className="pt-5 pb-1 text-white block text-left">
+              Message
+            </label>
+            <textarea type="text" name="file" className="pr-20 text-black hover:bg-slate-300 text-left rounded" id="" cols="22" rows="4"></textarea>
+            <button className="text-left border-black mt-5 bg-slate-100 hover:bg-slate-400 text-slate-700 hover:text-black rounded my-9 p-1 px-2 font-bold">Submit </button>
+          </div>
         </div>        
         
 

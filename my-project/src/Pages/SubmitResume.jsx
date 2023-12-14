@@ -28,7 +28,7 @@ function SubmitResume() {
         Drop Resume here
       </label>
       <input type="file" name="file" className="text-white text-center rounded" />
-      <button className="border-black mt-5 bg-slate-100 hover:bg-slate-400 text-slate-700 hover:text-black rounded my-9 p-1 px-2 font-bold">Submit </button>
+      <button className="text-left border-black mt-5 bg-slate-100 hover:bg-slate-400 text-slate-700 hover:text-black rounded my-9 p-1 px-2 font-bold">Submit </button>
     </div>
   </div>
 </>
