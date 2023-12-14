@@ -23,7 +23,7 @@ function SubmitResume() {
       <label className="pt-5 text-white block text-left">
         Comments
       </label>
-      <textarea type="text" name="Comments" id="text_2" className="pr-20 text-black hover:bg-slate-300 text-left rounded"  cols="22" rows="4"></textarea>
+      <textarea type="text" name="Comments" id="text_2" className="pr-20 text-black hover:bg-slate-300 text-left rounded" cols="22" rows="4"></textarea>
       <label className="pt-5 text-white block text-left">
         Drop Resume here
       </label>

@@ -2,9 +2,9 @@ import Job from "./Job";
 const JobListing = ({ data }) => {
     return(
         <>
-        {data.map((job, index) => (
-            <Job props={job} />
-        ))}
+            {data.map((job, index) => (
+                <Job props={job} />
+            ))}
         </>
     );
 }
