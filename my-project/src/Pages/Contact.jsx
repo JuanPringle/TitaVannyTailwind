@@ -7,9 +7,9 @@ const Contact = () => {
           <p className='text-white text-center block text-xl font-body ml-32 bg-black p-2 bg-opacity-80'>Scroll Down</p>
         </div>
       </div>
-      <div className="my-10 mx-10 columns-2">
-        <div className="">
-          <p className="text-blue-500 text-4xl font-body pb-3 pt-6 flex-grow">
+      <div className="my-10 mx-10 sm:columns-1 md:columns-2">
+        <div>
+          <p className="text-blue-500 text-4xl font-body pb-3 pt-6 ">
             CAREER ADVANTAGE, INC.
           </p>
           <p className="text-white text-xl font-body pb-3 ">
@@ -26,21 +26,25 @@ const Contact = () => {
           <p className="text-white text-xl font-body pb-3 ">
             (213) 380-4410
           </p>
-          <p className="text-blue-500 text-3xl font-body  pt-6">
+          <p className="text-blue-500 text-3xl font-body  pt-5">
             FAX
           </p>
           <p className="text-white text-xl font-body pb-3 ">
             (213) 380-4421
           </p>
-          <p className="text-blue-500 text-3xl font-body  pt-6">
+          <p className="text-blue-500 text-3xl font-body  pt-5">
             EMAIL
           </p>
           <p className="text-white text-xl font-body pb-3 ">
             hr@caistaffing.com
           </p>
-          <p className="text-blue-500 text-3xl font-body  pt-6">
+          <p className="text-blue-500 text-3xl font-body  pt-5">
             PAYMENTS
           </p>
+          
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_paynowCC_LG.gif"/>
+          </form>
         </div>
         <div>
           <div className="border-2 border-double rounded border-slate-100 py-6 px-5 bg-slate-800 opacity-90">
