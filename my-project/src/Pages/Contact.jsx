@@ -14,10 +14,10 @@ const Contact = () => {
           </p>
           <p className="text-white text-2xl font-body pb-3 ">
             <div>
-              <h4>3460 Wilshire Blvd.,</h4>
-              <h4>Suite 1126</h4>
-              <h4>Los Angeles, CA 90010</h4>
-            </div>
+              <h4>680 E. Colorado Blvd.,</h4>
+              <h4>Suite 180</h4>
+              <h4>Pasadena, CA 91101</h4>
+            </div> 
                 
           </p>
           <p className="text-blue-500 text-3xl font-body pt-5">
