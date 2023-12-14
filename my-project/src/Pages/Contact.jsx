@@ -7,30 +7,65 @@ const Contact = () => {
           <p className='text-white text-center block text-xl font-body ml-32 bg-black p-2 bg-opacity-80'>Scroll Down</p>
         </div>
       </div>
-      <div className="mx-10">
-        <p className="text-blue-500 text-4xl font-body pb-3 pt-6">
-          WHO WE ARE
-        </p>
-        <p className=" text-white pb-3 text-2xl">
-          Career Advantage is a full-service staffing agency that provides comprehensive
-          staffing solutions in Los Angeles and the surrounding areas.  We began in 2001 as a
-          two person search firm and have been on a journey of growth since.  After taking stock
-          of who we are and where we've been, one thing became clear; maintaining the status quo
-          was no way to run a business. We realized to keep growing, we'd have to be infinitely
-          more invested. In our own people, clients, and candidates. In everything we do, every
-          single day. So we made a commitment to do exactly that. And we've remained true to it ever since.
-        </p>
-
-
-        <p className=" text-white py-3 pt-10 text-2xl">
-          No matter what position you're looking to fill, you can be confident every candidate we
-          present will be more qualified, more skilled and more of what you are looking for. If you're
-          looking for work, you can be confident that our clients have highly desirable positions that
-          you may not find using typical job search methods.  And that we have the relationships and
-          connections to expose you to the industries and positions you want.
-        </p>
+      <div className="my-10 mx-10 columns-2">
+        <div className="">
+          <p className="text-blue-500 text-4xl font-body pb-3 pt-6 flex-grow">
+            CAREER ADVANTAGE, INC.
+          </p>
+          <p className="text-white text-xl font-body pb-3 ">
+            <div>
+              <h4>3460 Wilshire Blvd.,</h4>
+              <h4>Suite 1126</h4>
+              <h4>Los Angeles, CA 90010</h4>
+            </div>
+                
+          </p>
+          <p className="text-blue-500 text-3xl font-body pb-3 pt-6">
+            PHONE
+          </p>
+          <p className="text-white text-xl font-body pb-3 ">
+            (213) 380-4410
+          </p>
+          <p className="text-blue-500 text-3xl font-body pb-3 pt-6">
+            FAX
+          </p>
+          <p className="text-white text-xl font-body pb-3 ">
+            (213) 380-4421
+          </p>
+          <p className="text-blue-500 text-3xl font-body pb-3 pt-6">
+            EMAIL
+          </p>
+        </div>
+        <div>
+        <div className="border-2 border-double rounded border-slate-100 py-12 px-5 bg-slate-800 opacity-90">
+      <label className="text-white block text-left">
+        Name
+      </label>
+      <input type="text" name="file"  className="pr-20 text-black hover:bg-slate-300 text-left rounded" />
+      <label className="pt-5 text-white block text-left">
+        Phone Number
+      </label>
+      <input type="text" name="file" className="pr-20 text-black hover:bg-slate-300 text-left rounded" />
+      <label className="pt-5 text-white block text-left">
+        Email
+      </label>
+      <input type="text" name="file" className="pr-20 text-black hover:bg-slate-300 text-left rounded" />
+      <label className="pt-5 text-white block text-left">
+        Message
+      </label>
+      <textarea type="text" name="file" className="pr-20 text-black hover:bg-slate-300 text-left rounded" id="" cols="22" rows="4"></textarea>
+      <button className="border-black mt-5 bg-slate-100 hover:bg-slate-400 text-slate-700 hover:text-black rounded p-1 px-2 font-bold">Submit </button>
+        
+    </div>
+        </div>        
+        
 
         
+      </div>
+      <div>
+        <p className="text-blue-500 text-3xl font-body pb-3 pt-6 text-center">
+            GET DIRECTION
+        </p>
       </div>
     </>
   )
