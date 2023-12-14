@@ -6,6 +6,7 @@ import Service from "./Pages/Services"
 import AboutUs from "./Pages/AboutUs";
 import Contact from "./Pages/Contact";
 import JobSearch from "./Pages/JobSearch";
+import Bottom from "./Components/Bottom";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
             <Route path="jobSearch" element={<JobSearch/>}/>
           </Routes>
         </div>
+        <Bottom />
 
       </main>
     </Router>
