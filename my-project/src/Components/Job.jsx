@@ -1,7 +1,7 @@
 const Job = ({props}) => {
     return (  
     <>
-        <div className="mx-2">
+        <div className="w-full mx-2 break-inside-avoid-column">
             <div className="bg-slate-700 bg-opacity-90 p-10 rounded-lg shadow-md break-words">
                 <h2 className="text-2xl font-bold mb-2 text-white">{props.title == null ? "Job Title" : props.title}</h2>
                 <p className="text-white pb-3"><span className="text-white font-semibold">Location: </span>{props.location == null ? "TBD" : props.location}</p>
