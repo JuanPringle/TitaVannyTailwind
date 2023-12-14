@@ -35,7 +35,7 @@ const Job = ({props}) => {
                 </div>
             </div>
                 <a href="/submitResume">
-                    <button className="mt-5 bg-blue-700 text-white rounded p-2 font-bold">Apply Now </button>
+                    <button className="mt-5 bg-blue-700 hover:bg-blue-900 text-white hover:text-slate-300 rounded p-2 font-bold">Apply Now </button>
                 </a>
             </div>
         </div>
